@@ -5,3 +5,57 @@
     box-sizing: border-box;
 }
 
+/* 
+mobile-s: 600px
+tablet-md: 700px
+desktop-lg: 1100px */
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+/* MAIN */
+
+
+.central-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar {
+    width: 40px;
+    height: 90vh;
+    background-color: blue;
+    position: absolute;
+
+
+}
+
+
+
+.upgrade-bar {
+    background-color: blueviolet;
+    height: 10vh; 
+
+}
+
+.main-bar {
+    background-color: lightsalmon;
+    width: 100%;
+    height: 80vh;
+    overflow-y: auto;
+
+}
+
+
+
+
+
+/* FOOTER */
+
+.player-container{
+    height: 70px;
+background-color: aqua;
+
+}
