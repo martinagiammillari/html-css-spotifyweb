@@ -5,59 +5,104 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: ;
+}
 
 
-
+/* COMMON */
+/* LAYOUT */
 
 .wrapper {
     width: 100%;
     height: 100vh;
+
 }
 
 
 
-
-/* MAIN */
-
-
-.central-bar {
+.top-container {
     display: flex;
-    flex-direction: column;
+    height: calc(100% - 80px);
+    background-color: aquamarine;
+
 }
+
 
 .side-bar {
-    width: 40px;
-    height: 95vh;
+    width: 60px;
     background-color: blue;
-    position: absolute;
-
 
 }
 
-
-
-.upgrade-bar {
-    background-color: blueviolet;
-    height: 10vh;
-
-}
-
-.main-bar {
-    background-color: lightsalmon;
-    width: 100%;
-    height: 85vh;
+.content {
+    color: white;
+    width: calc(100% - 60px);
+    background-color: rgb(98, 31, 31);
     overflow-y: auto;
 
 }
 
+header {
+    height: 60px;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    left: 0;
 
 
+}
+
+/* MAIN NAV */
+
+main {
+    padding: 20px;
+}
+
+a {
+    color: inherit;
+}
+
+main nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+/* SECTION GRID */
+.flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.col {
+    width: calc(100% / 2 - 10px / 2);
+
+    background-color: aquamarine;
+    min-height: 100px;
+
+
+
+
+
+}
 
 
 /* FOOTER */
 
 .player-container {
-    height: 70px;
+    height: 80px;
     background-color: aqua;
 
 }
@@ -69,8 +114,11 @@
 @media screen and (min-width:600px) {
 
     .side-bar {
-        width: 220px;
+        width: 200px;
+    }
 
+    .content {
+        width: calc(100% - 200px);
     }
 
 }
@@ -80,11 +128,17 @@
 
 @media screen and (min-width:700px) {
 
+    .col {
+        width: calc(100% / 4 - (10px * 3) / 4);
+    }
 }
 
 
-/* RESPONSIVE desktop-lg: 1100px */ 
+/* RESPONSIVE desktop-lg: 1100px */
 
 @media screen and (min-width:1100px) {
+    .col {
+        width: calc(100% / 6 - (10px * 5) / 6);
+    }
 
 }
