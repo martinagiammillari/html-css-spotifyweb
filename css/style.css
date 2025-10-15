@@ -59,6 +59,42 @@ body {
 }
 
 
+.mini-icon {
+    max-width: 20px;
+    padding-left: 5px;
+
+}
+
+.small-icon hr {
+    margin: 8px;
+    width: 500%;
+    display: none;
+}
+
+
+#profile {
+    background-color: grey;
+    border-radius: 50%;
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grey {
+    color: grey;
+}
+
+.strong {
+    font-weight: 800;
+}
+
+.second-list{
+    display: none;
+}
+
+
 /* CONTENT */
 .content {
     color: white;
@@ -111,18 +147,19 @@ main nav ul {
     margin-top: 20px;
     font-size: 0.9rem;
     font-weight: 500;
+    color: grey;
 }
 
 
 /* SECTION GRID */
 
 
-.margin-top40{
+.margin-top40 {
     margin-top: 40px;
 }
 
-.margin-bottom30{
-margin-bottom: 30px;
+.margin-bottom30 {
+    margin-bottom: 30px;
 }
 
 
@@ -137,26 +174,26 @@ margin-bottom: 30px;
     width: calc(100% / 2 - 10px / 2);
 }
 
-.title-col-container{
+.title-col-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.title-col{
+.title-col {
     font-weight: 800;
     margin-bottom: 5px;
 }
 
-.subtitle-col{
+.subtitle-col {
     font-size: 0.9rem;
     font-weight: 800;
     color: grey;
     margin-bottom: 30px;
 }
 
-.radius{
-border-radius: 50%;
+.radius {
+    border-radius: 50%;
 }
 
 
@@ -185,6 +222,16 @@ border-radius: 50%;
 
     .small-logo {
         display: none;
+    }
+
+    .small-icon hr {
+        margin: 8px;
+        width: 500%;
+        display: block;
+    }
+
+    .second-list {
+        display: block;
     }
 
 
