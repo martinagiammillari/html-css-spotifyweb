@@ -324,6 +324,7 @@ main nav ul {
     justify-content: center;
     align-items: center;
     background-color: rgb(47, 45, 45);
+    padding-bottom: 8px;
     
 }
 
@@ -345,10 +346,12 @@ main nav ul {
 
 .song-progress {
     padding-right: 30px;
+    font-size: 0.6rem;
 }
 
 .song-duration {
     padding-left: 30px;
+    font-size: 0.6rem;
 }
 
 .player ul li {
@@ -375,12 +378,46 @@ main nav ul {
 }
 
 
-/* audio */
+/*Right Controller*/
+  .right-controller-container {
+	flex-basis: 30%;
+	display: flex;
+	flex-direction: row;
+     background-color: rgb(47, 45, 45);
+  }
+  
+  .right-controller {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
 
-.audio {
-    background-color: blue;
-}
-
+  }
+  
+  .right-controller i {
+    color: white;
+	font-size: 12px;
+  }
+  
+  .right-controller a {
+	padding-right: 15px;
+  }
+  
+  .right-controller-bar {
+	flex-basis: 40%;
+	height: 4px;
+	background: #535353;
+	border-radius: 2px;
+	align-self: center;
+	position: relative;
+  }
+  
+  .right-controller-partial-bar {
+	height: 4px;
+	width: 25%;
+	background-color: #fff;
+	border-radius: 5px;
+  }
 
 
 
