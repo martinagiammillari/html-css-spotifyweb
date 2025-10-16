@@ -74,7 +74,7 @@ body {
 
 
 .side-bar ul {
-    color: white;
+    color: grey;
     list-style: none;
 }
 
@@ -420,6 +420,32 @@ main nav ul {
   }
 
 
+
+  /* HOVER */
+
+  main nav ul li:hover{
+color: white;
+  }
+
+  .side-bar ul li:hover{
+    color: white;
+  }
+  
+  .installa:hover{
+    color: white;
+  }
+
+  .album-icons i:hover{
+    color: white;
+  }
+  
+ header a:hover{
+    font-size: 1.2rem;
+ }
+
+.fa-play-circle:hover{
+    font-size: 2rem;
+}
 
 
 
