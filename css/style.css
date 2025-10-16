@@ -202,6 +202,10 @@ main nav ul {
 
 /* SECTION GRID */
 
+.download{
+background-image: url(../img/download.svg);
+}
+
 
 .margin-top40 {
     margin-top: 40px;
@@ -221,6 +225,7 @@ main nav ul {
 
 .col {
     width: calc(100% / 2 - 10px / 2);
+
 }
 
 .title-col-container {
@@ -485,6 +490,9 @@ color: white;
     }
 }
 
+main img:hover{
+    opacity: 0.6;
+}
 
 
 /* RESPONSIVE mobile-s: 600px */
